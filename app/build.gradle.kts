@@ -52,7 +52,7 @@ dependencies {
 
     implementation(libs.bundles.lifecycle)
 
-    implementation(libs.bundles.hilt)
+    implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
 
     implementation(libs.bundles.coroutines)
